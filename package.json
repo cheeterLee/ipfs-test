@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
+    "ipfs-http-client": "^60.0.0",
     "lofi-design": "file:../lofi-design",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
