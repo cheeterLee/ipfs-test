@@ -55,6 +55,8 @@ function App() {
 		const imageObjectBack = await res.files()
 		const { name } = imageObjectBack[0] 
 		console.log(name)
+		console.log('Image Url >>>', `https://${rootCid}.ipfs.w3s.link/${name}`)
+		
 		setDisplayImage(`https://${rootCid}.ipfs.w3s.link/${name}`)
 		// const imageDisplayUrl = await retrieveImageFromIPFS(cid, name)
 		// console.log('imageDisplayUrl', imageDisplayUrl)
