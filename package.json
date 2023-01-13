@@ -13,7 +13,8 @@
     "ipfs-http-client": "^60.0.0",
     "lofi-design": "file:../lofi-design",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "web3.storage": "^4.4.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
